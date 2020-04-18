@@ -1,0 +1,29 @@
+.list{
+text-align: left;
+}
+.list-item{
+  cursor: pointer;
+  margin: 10px;
+  border-bottom: 1px solid grey;
+}
+.list-item:hover{
+  border-bottom: 1px solid cornflowerblue;
+}
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.flodAbleArea{
+    transition: all 0.3s;
+    transform-origin: 50% 0;
+    border-radius: 5px;
+    box-shadow:0 0 5px 1px grey;
+    padding: 10px;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    background: #ffffff;
+}
+
